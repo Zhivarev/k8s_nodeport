@@ -15,7 +15,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: zhivarev/diplom-nginx:v1
+      - image: zhivarev/diplom-nginx
         ports:
         - containerPort: 80
 
