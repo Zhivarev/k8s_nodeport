@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: registry.gitlab.com/zhivarev/diplom-nginx/diplom-nginx:latest
+        image: registry.gitlab.com/zhivarev/diplom-nginx:v1.0
         ports:
         - containerPort: 80
 
